@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter Variable', system-ui, sans-serif;
+  --color-brand: #4762ff;
+  --color-brand-soft: #778bff;
+  --color-ink: #333333;
+  --color-body: #5b5b5c;
+  --color-mute: #717171;
+  --color-card: #f4f6fa;
+  --color-sect: #f4f4f4;
+  --color-field: #f1f3ff;
+  --color-dark: #191919;
+  --shadow-nav: 0 8px 24px rgb(0 0 0 / 0.03);
+}
+
+body {
+  min-width: 1440px;
+  color: var(--color-body);
+  -webkit-font-smoothing: antialiased;
+}
